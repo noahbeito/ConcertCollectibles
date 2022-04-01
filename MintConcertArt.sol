@@ -5,7 +5,7 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5
 contract ConcertToken is ERC721Full {
     constructor() public ERC721Full("ConcertToken", "CRT") { }
 
-    function registerArtwork(address owner, string memory tokenURI)
+    function registerCollectible(address owner, string memory tokenURI)
         public
         returns (uint256)
     {
